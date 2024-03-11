@@ -1,0 +1,2 @@
+#!/bin/bash
+[ -z "$PYFILE" ] && echo "Error: \$PYFILE not set." || python3 "$PYFILE"
