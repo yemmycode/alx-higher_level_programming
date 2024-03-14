@@ -11,7 +11,7 @@ if __name__ == "__main__":
     product_result = multiply(a, b)
     quotient_result = divide(a, b)
 
-    print("Sum:", sum_result)
-    print("Difference:", difference_result)
-    print("Product:", product_result)
-    print("Quotient:", quotient_result)
+    print("Sum: {}".format(sum_result))
+    print("Difference: {}".format(difference_result))
+    print("Product: {}".format(product_result))
+    print("Quotient: {}".format(quotient_result))
