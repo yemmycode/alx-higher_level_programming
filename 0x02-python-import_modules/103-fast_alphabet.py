@@ -1,2 +1,6 @@
 #!/usr/bin/python3
-print(*map(chr, range(65, 91)), sep="\n")
+
+import string
+
+alphabet = map(chr, range(65, 91))
+print(*alphabet, sep='\n')
