@@ -4,7 +4,7 @@ import sys
 def main():
     num_args = len(sys.argv) - 1
 
-    print(f"Number of argument(s): {num_args}")
+    print(f"argument(s): {num_args}")
 
     plural_suffix = 's' if num_args != 1 else ''
 
