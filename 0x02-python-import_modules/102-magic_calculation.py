@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-
 def magic_calculation(a, b):
-    result = 98
-    result += a ** b
-    return (result);
-
-print(magic_calculation(2, 3))
+    add, sub = __import__('magic_calculation_102', globals(), locals(), ['add', 'sub'], 0)
+    if a < b:
+        c = add(a, b)
+        for i in range(4, 6):
+            c = add(c, i)
+        return (c);
+    else:
+        return (sub(a, b));
