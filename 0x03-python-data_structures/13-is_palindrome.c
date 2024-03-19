@@ -27,9 +27,6 @@ slow = slow->next;
 
 second_half = slow;
 prev_slow->next = NULL;
-// reverse_list(&second_half);
-// res = compare_lists(*head, second_half);
-// reverse_list(&second_half);
 
 if (mid_node != NULL)
 {
