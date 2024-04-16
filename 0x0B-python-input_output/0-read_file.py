@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""
-Function to read a UTF8 text file and output its contents to the console.
-"""
-
 
 def read_file(filename=""):
-    with open(filename, mode='r', encoding='utf-8') as file:
-        print(file.read(), end='')
+    """Reads the content of a text file (UTF8) and prints it to stdout."""
+    with open(filename, 'r', encoding='utf-8') as file:
+        for line in file:
+            print(line, end='')
+
